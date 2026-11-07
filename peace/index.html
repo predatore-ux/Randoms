@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8d9e5">
+  <meta name="description" content="A little pink pick-me-up, just for Peace.">
+  <title>A little something for Peace</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <section id="hello" class="scene hello" aria-labelledby="question">
+      <header><span class="brand">p<span class="brand-star">✳</span></span><span>A LITTLE SOMETHING, JUST FOR YOU</span><span class="edition">01 / PEACE</span></header>
+      <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+      <div class="greeting">
+        <span class="eyebrow">HEY, PEACE <span aria-hidden="true">♡</span></span>
+        <h1 id="question">How is your<br><em>day going?</em></h1>
+        <p>Whatever kind of day it is, I’m glad you’re here.</p>
+        <div class="choices" aria-label="How is your day going?">
+          <button type="button"><span class="face" aria-hidden="true">☺</span>Good<span class="arrow" aria-hidden="true">↗</span></button>
+          <button type="button"><span class="face meh" aria-hidden="true">😐</span>Meh<span class="arrow" aria-hidden="true">↗</span></button>
+          <button type="button"><span class="face" aria-hidden="true">☹</span>Not so Good<span class="arrow" aria-hidden="true">↗</span></button>
+        </div>
+        <span class="hint">PICK YOUR MOOD. THERE’S A LITTLE SURPRISE WAITING.</span>
+      </div>
+      <span class="doodle d1" aria-hidden="true">✧</span><span class="doodle d2" aria-hidden="true">✦</span><span class="doodle d3" aria-hidden="true">♡</span>
+      <footer><span>Made for you, with a little magic.</span><span aria-hidden="true">♡</span></footer>
+    </section>
+    <section id="stars" class="scene stars" hidden aria-labelledby="better" tabindex="-1">
+      <div id="starfield" aria-hidden="true"></div>
+      <div class="promise"><span class="eyebrow">A LITTLE MAGIC FOR PEACE</span><h2 id="better">It’s about to get<br><em>much better.</em></h2><p>Even the darkest sky has a little light.</p></div>
+      <div id="signal" class="signal" hidden>
+        <div class="beam" aria-hidden="true"></div>
+        <svg viewBox="0 0 500 280" role="img" aria-label="Batman sign"><ellipse cx="250" cy="140" rx="239" ry="128" fill="#ffe49a"/><ellipse cx="250" cy="140" rx="224" ry="113" fill="none" stroke="#171019" stroke-width="7"/><path fill="#171019" d="M250 235 C225 193 208 181 186 188 C173 159 150 152 126 168 C115 139 93 132 53 144 C75 118 91 78 98 58 C129 87 149 91 176 85 C186 108 205 112 219 101 L223 60 L238 79 L262 79 L277 60 L281 101 C295 112 314 108 324 85 C351 91 371 87 402 58 C409 78 425 118 447 144 C407 132 385 139 374 168 C350 152 327 159 314 188 C292 181 275 193 250 235Z"/></svg>
+        <span class="signal-caption">SOMEONE’S LOOKING OUT FOR YOU.</span>
+      </div>
+    </section>
+    <section id="blackout" class="blackout" hidden aria-label="The surprise has ended"></section>
+  </main>
+</body>
+</html>
